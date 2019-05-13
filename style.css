@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	background-color: #26282E;
+	color: #a56b3e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.board {
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cardA {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/back.png");
+	border: 4px solid whitesmoke;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card {
+    display: inline-block; 
+    border: 4px solid #a56b3e;
+    border-radius: 4px;
+    background-image: url('img/back.png');
+    background-size: 125px 125px;
+    cursor: pointer;
+    height: 125px;
+    width: 125px;
+    margin: 3px;
+    filter: brightness(80%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover {
+    border: 4px solid whitesmoke;
+    filter: brightness(100%);
+}
+.score {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 100px;
+    border: 4px solid #a56b3e;
+    border-radius: 10px;
+	padding: 8px 16px;
+	filter: brightness(80%);
+    color: #a56b31;
+    font-size: 46px;
+    background-color: burlywood;
+}
+button:hover {
+	filter: brightness(100%);
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
